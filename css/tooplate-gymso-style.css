@@ -529,6 +529,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     height: calc(2.25rem + 20px);
   }
 
+  .contact {
+    background-color: var(--about-bg-color);
+  }
+
   .form-control {
     border-radius: var(--border-radius-small);
     margin: 1.3rem 0;
