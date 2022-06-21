@@ -661,6 +661,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .modal-content {
       padding: 2rem;
     }
+
+    .estudio-logo {
+      height: 4rem;
+      margin-right: 2rem;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -676,5 +681,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .contact h2 span {
       display: block;
+    }
+
+    .estudio-logo {
+      height: 4rem;
+      margin-right: 2rem;
     }
   }
