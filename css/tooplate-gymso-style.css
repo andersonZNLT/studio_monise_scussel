@@ -372,6 +372,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
     position: relative;
   }
 
+  .estudio-logo {
+    display: flex;
+    align-items: flex-end;
+    height: 4rem;
+    margin-right: 2rem;
+  }
+
 
   /*---------------------------------------
      CLASS               
