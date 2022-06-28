@@ -33,7 +33,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   :root {
     --primary-color:        #466D8C;
     --white-color:          #ffffff;
-    --dark-color:           #171819;
+    --dark-color:           #080808; /*#171819; original do template*/
     --about-bg-color:       #f9f9f9;
 
     --gray-color:           #909090;
@@ -275,6 +275,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding-top: 0;
   }
 
+  .navbar-logo {
+    display: flex;
+    align-items: flex-end;
+    height: 4rem;
+    margin-right: 2rem;
+  }
+
   .nav-item .nav-link {
     display: block;
     color: var(--white-color);
@@ -371,14 +378,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     min-height: 100vh;
     position: relative;
   }
-
-  .estudio-logo {
-    display: flex;
-    align-items: flex-end;
-    height: 4rem;
-    margin-right: 2rem;
-  }
-
 
   /*---------------------------------------
      CLASS               
@@ -661,11 +660,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .modal-content {
       padding: 2rem;
     }
-
-    .estudio-logo {
-      height: 4rem;
-      margin-right: 2rem;
-    }
   }
 
   @media screen and (max-width: 767px) {
@@ -674,6 +668,14 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 38px;
     }
 
+    /*body {
+      width: 100%;
+      min-height: 100vh;
+      background-color: blue;
+      margin: 0;
+      padding: 0;
+    }*/
+
     .about-working-hours {
       border-left: 0;
       padding: 22px 0 0 0;
@@ -681,10 +683,5 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .contact h2 span {
       display: block;
-    }
-
-    .estudio-logo {
-      height: 4rem;
-      margin-right: 2rem;
     }
   }
